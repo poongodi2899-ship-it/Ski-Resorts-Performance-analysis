@@ -44,24 +44,24 @@
                Data Size: 500+ rows and 25 columns
 
         ## Attribute:
-Attribute Name              Data                               Type Description
-ID                          Integer                       Unique identifier for each ski resort
-Resort                      Text                          Name of the ski resort
-Latitude                    Decimal Number                Latitude location of the resort
-Longitude                   Decimal Number                 Longitude location of the resort
-Country                     Text                           Country where the resort is located
-Continent                   Text                           Continent where the resort is located
-Price                       Decimal Number                  Ski pass price of the resort
-Season                      Text                            Ski operating season
-Highest Point               Integer                          Highest elevation point of the resort
-Lowest Point                Integer                          Lowest elevation point of the resort
-Beginner Slopes             Integer                          Number of beginner-level slopes
-Intermediate Slopes         Integer                          Number of intermediate-level slopes
-Difficult Slopes            Integer                          Number of difficult-level slopes
-Total Slopes                Integer                          Total number of slopes available
-Longest Run                 Decimal Number                    Length of the longest ski run
-Total Lifts                 Integer                           Total number of lifts
-Lift Capacity               Integer                          Lift passenger carrying capacity
+Attribute Name       |       Data        |                       Type Description
+ID                    |      Integer      |                 Unique identifier for each ski resort
+Resort              |        Text           |               Name of the ski resort
+Latitude                |    Decimal Number   |             Latitude location of the resort
+Longitude                |   Decimal Number  |               Longitude location of the resort
+Country                   |  Text             |              Country where the resort is located
+Continent          |         Text              |             Continent where the resort is located
+Price                 |      Decimal Number       |           Ski pass price of the resort
+Season              |        Text      |                      Ski operating season
+Highest Point          |     Integer     |                     Highest elevation point of the resort
+Lowest Point      |          Integer       |                   Lowest elevation point of the resort
+Beginner Slopes       |      Integer    |                      Number of beginner-level slopes
+Intermediate Slopes |        Integer      |                   Number of intermediate-level slopes
+Difficult Slopes          |  Integer       |                   Number of difficult-level slopes
+Total Slopes        |        Integer     |                     Total number of slopes available
+Longest Run              |   Decimal Number     |               Length of the longest ski run
+Total Lifts             |    Integer        |                   Total number of lifts
+Lift Capacity            |   Integer       |                   Lift passenger carrying capacity
 
 
 ## Tools &Technologies:
