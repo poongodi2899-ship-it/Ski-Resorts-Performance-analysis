@@ -1,6 +1,6 @@
   # Ski Resort Performance Analysis Dashboard – 2022
     
-   
+   📌 Project Overview
 
 🎯 Project Objectives
 
