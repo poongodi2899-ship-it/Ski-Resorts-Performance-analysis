@@ -1,28 +1,5 @@
   # Ski Resort Performance Analysis Dashboard – 2022
-  
-               
-    ## OBJECTIVES:
-          The key objectives of this project are:
-             To analyze the geographical distribution of ski resorts across different
-             continents and countries using pie charts and clustered bar chart
-             visualizations for better regional comparison and tourism analysis.
-            To evaluate average resort pricing trends across countries and continents
-             using clustered column charts and line charts in order to identify premium
-              tourism regions and pricing variations.
-              To compare beginner, intermediate, and difficult slope categories using
-              stacked chart analysis to understand skiing difficulty distribution and customer
-              accessibility across resorts.
-            To examine the relationship between lift capacity and resort operational
-             performance using scatter chart visualization for identifying infrastructure
-              efficiency and visitor management capability.
-            To develop an interactive Power BI dashboard using KPI cards, slicers, and
-             multiple charts for dynamic filtering, real-time analysis, and effective business
-             performance monitoring.
-           To generate meaningful descriptive, diagnostic, predictive, and prescriptive
-             analytics insights that support data-driven decision-making, tourism planning,
-            and resort management strategies.
-            
-      ##  Data Sources:
+    ##  Data Sources:
                Dataset Source: https://mavenanalytics.io/data
                Timeline: 2022
                Data Size: 500+ rows and 25 columns
@@ -43,63 +20,12 @@ Excel:
                Editor in Power BI to improve data quality, consistency, and analytical accuracy
                before creating the dashboard visualizations.
 
- Data Cleaning Steps Performed
-            1. Removed Null and Blank Values
-                 Blank and null records present in important columns such as Country,
-                 Continent, Price, and Lift Capacity were identified and removed to avoid incorrect
-                  analysis and visualization errors.
-            2. Checked Duplicate Records
-                 Duplicate ski resort entries were verified and removed to maintain accurate
-                 resort counts and operational analysis.
-            3. Changed Data Types
-                Columns were converted into appropriate data types:
-                Text format for Country, Resort, and Continent
-                Decimal number format for Price and Lift Capacity
-                Whole number format for Total Slopes and Highest Point
-      This improved calculation accuracy and chart performance
-            4. Renamed Column Headers
-                 Column names were cleaned and standardized for better readability and easier
-                dashboard development.
-              Example:
-                lift capacity → Lift Capacity
-                longest run → Longest Run
-           5. Created Price Category Column
-                   A calculated column was created to categorize resorts into:
-                    Low Price
-                    Medium Price
-                   High Price
-        This helped perform pricing comparison analysis using charts and slicers.
 
-           6. Filtered Unnecessary Data
-             Irrelevant columns and unwanted records were removed to improve
-             dashboard performance and reduce dataset complexity.
-           7. Applied Sorting and Formatting
-            Country names, continent values, and seasonal data were standardized to
-           maintain consistent visualization results across charts and slicers.
-           8. Created DAX Measures
-       DAX measures were created for:
-       Total Resorts
-       Average Price
-       Total Slopes
-       Total Lift Capacity
-       Maximum Highest Point
-       Average Longest Run
-These measures were used in KPI cards and interactive dashboard analysis.
-           9. Improved Data Consistency
-               Data validation and formatting ensured that all visualizations displayed
-               accurate and meaningful insights without inconsistencies.
-          10. Final Prepared Dataset
-  After completing the cleaning and transformation process, the dataset
-became ready for advanced analysis, dashboard creation, and interactive reporting
-in Power BI.
+          
 ## Data Modelling:
       Data modelling was performed to organize the dataset structure and ensure
-      proper relationships and data consistency for reporting.
- Used a single table data model for the ski resort dataset.
- Organized and formatted the dataset for analysis in Power BI.
- Assigned correct data types and data categories to columns.
- Created DAX measures and prepared the table for visualizations.
- Enabled interactive analysis using the single table structure.
+     proper relationships and data consistency for reporting.
+
 Screenshot:
 <img width="586" height="479" alt="image" src="https://github.com/user-attachments/assets/19a444b6-4715-45bb-9f3e-bdb6be324b2a" />
 ## Calculated columns & DAX measures:
@@ -109,39 +35,7 @@ Screenshot:
     <img width="730" height="415" alt="image" src="https://github.com/user-attachments/assets/355901d9-88ab-409d-813a-c2cba9c8bffb" />
 
    ## Analysis and Visualizations (power BI):
-# Dashboard Components:
-         ## KPI Cards
-The dashboard contains 6 KPI cards to display important business metrics
-such as Total Resorts, Average Price, Total Slopes, Total Lift Capacity, Maximum
-Highest Point, and Average Longest Run for quick performance analysis.
-         ## Charts Used in Dashboard
-1. Clustered Column Chart
-         Used to analyze average resort pricing across different countries and
-        compare pricing trends effectively.
-2. Clustered Bar Chart
-      Used to compare total resort distribution across countries and identify topperforming
-      ski tourism regions.
- 3. Pie Chart
-      Used to display continent-wise percentage distribution of ski resorts for
-       geographical analysis.
-4. Stacked Chart
-     Used to compare beginner, intermediate, and difficult slope categories across
-     ski resorts.
-5. Scatter Chart
-      Used to analyze the relationship between lift capacity and resort operational
-       performance.
-6. Line Chart
-       Used to identify continent-wise average pricing trends and compare regional
-     pricing patterns.
-## Slicers Used in Dashboard
-     1. Continent Slicer
-        Used to filter and analyze resort performance based on selected continents.
-     2. Country Slicer
-        Used to perform country-wise resort analysis and compare operational
-        performance.
-     3. Season Slicer
-        Used to analyze seasonal trends and identify resort activity during different
-       seasons.
+
 Screenshot:
 <img width="1833" height="438" alt="image" src="https://github.com/user-attachments/assets/3fde9724-7748-49e8-be4d-ef8a9a62664b" />
 <img width="1833" height="438" alt="image" src="https://github.com/user-attachments/assets/f1e63654-c874-4eb9-96ce-67b4c46e622f" />
