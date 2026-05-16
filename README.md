@@ -1,9 +1,5 @@
   # Ski Resort Performance Analysis Dashboard – 2022
-    ##  Data Sources:
-               Dataset Source: https://mavenanalytics.io/data
-               Timeline: 2022
-               Data Size: 500+ rows and 25 columns
-
+    
        ## Tools &Technologies:
 Excel:
      Data Cleaning,
@@ -26,13 +22,10 @@ Excel:
       Data modelling was performed to organize the dataset structure and ensure
      proper relationships and data consistency for reporting.
 
-Screenshot:
-<img width="586" height="479" alt="image" src="https://github.com/user-attachments/assets/19a444b6-4715-45bb-9f3e-bdb6be324b2a" />
 ## Calculated columns & DAX measures:
      DAX calculations were created to generate key performance indicators such as
     average price, total resorts, average slopes, and lift analysis.
-    <img width="748" height="400" alt="image" src="https://github.com/user-attachments/assets/f8619add-d792-4cd0-9aa0-e985d926f929" />
-    <img width="730" height="415" alt="image" src="https://github.com/user-attachments/assets/355901d9-88ab-409d-813a-c2cba9c8bffb" />
+    
 
    ## Analysis and Visualizations (power BI):
 
