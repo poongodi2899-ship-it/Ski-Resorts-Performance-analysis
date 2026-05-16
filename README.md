@@ -1,6 +1,6 @@
   # Ski Resort Performance Analysis Dashboard – 2022
     
-       ## Tools &Technologies:
+       
 Excel:
      Data Cleaning,
      Transformation
@@ -18,14 +18,6 @@ Excel:
 
 
           
-## Data Modelling:
-      Data modelling was performed to organize the dataset structure and ensure
-     proper relationships and data consistency for reporting.
-
-## Calculated columns & DAX measures:
-     DAX calculations were created to generate key performance indicators such as
-    average price, total resorts, average slopes, and lift analysis.
-    
 
    ## Analysis and Visualizations (power BI):
 
