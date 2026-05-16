@@ -1,7 +1,5 @@
   # Ski Resort Performance Analysis Dashboard – 2022
-
-  
-    ## PROJECT OVERVIEW:
+  ## PROJECT OVERVIEW:
            This project focuses on analysing data to uncover meaningful insights,
            trends, and patterns that support business decision-making.
          What is the project about?
@@ -43,61 +41,16 @@
                Timeline: 2022
                Data Size: 500+ rows and 25 columns
 
-        ## Attribute:
-Attribute Name       |       Data        |                       Type Description
-ID                    |      Integer      |                 Unique identifier for each ski resort
-Resort              |        Text           |               Name of the ski resort
-Latitude                |    Decimal Number   |             Latitude location of the resort
-Longitude                |   Decimal Number  |               Longitude location of the resort
-Country                   |  Text             |              Country where the resort is located
-Continent          |         Text              |             Continent where the resort is located
-Price                 |      Decimal Number       |           Ski pass price of the resort
-Season              |        Text      |                      Ski operating season
-Highest Point          |     Integer     |                     Highest elevation point of the resort
-Lowest Point      |          Integer       |                   Lowest elevation point of the resort
-Beginner Slopes       |      Integer    |                      Number of beginner-level slopes
-Intermediate Slopes |        Integer      |                   Number of intermediate-level slopes
-Difficult Slopes          |  Integer       |                   Number of difficult-level slopes
-Total Slopes        |        Integer     |                     Total number of slopes available
-Longest Run              |   Decimal Number     |               Length of the longest ski run
-Total Lifts             |    Integer        |                   Total number of lifts
-Lift Capacity            |   Integer       |                   Lift passenger carrying capacity
-
-
-## Tools &Technologies:
+       ## Tools &Technologies:
 Excel:
      Data Cleaning,
      Transformation
-     pivot tables.
-Power BI
+    Power BI
      Data Cleaning (Power Query)
      Data Modelling
      DAX Calculations
      Visualizations,
      Interactive dashboard creation.
-
-
-   ## Excel:
- Data Cleaning (Preprocessing):
-       Steps:
-             Removed duplicate records
-             Corrected data types
-             Rounded latitude and longitude values
-             Handled missing values and blanks
-             Replaced invalid values (0 values)
-             Standardized season categories
-Pivot Tables:
-             The following pivot tables were created to analyse ski resort
-              performance, pricing patterns, slopes distribution, seasonal availability, and
-               lift facilities across different countries and regions
-Screenshot:
-<img width="566" height="270" alt="image" src="https://github.com/user-attachments/assets/7a1695d8-96f7-4ed4-893a-8f04a4f37770" />
-<img width="566" height="264" alt="image" src="https://github.com/user-attachments/assets/c6f68483-7cf7-4bb3-972c-61a1aa1fe8ed" />
-<img width="567" height="331" alt="image" src="https://github.com/user-attachments/assets/d0180e59-dcff-4eee-9a00-c5a8d9cc364f" />
-<img width="572" height="283" alt="image" src="https://github.com/user-attachments/assets/854a5d04-0bb6-4255-b732-2d5e57d6d151" />
-<img width="573" height="273" alt="image" src="https://github.com/user-attachments/assets/ff7694e5-d930-4411-a80b-81d8d2aed4fd" />
-<img width="730" height="305" alt="image" src="https://github.com/user-attachments/assets/8da30edd-b249-4ff7-9349-f430bb9e77be" />
-
 ## POWER BI:
      Data Cleaning and Transformation in Power BI
                The ski resort dataset was cleaned and transformed using Power Query
